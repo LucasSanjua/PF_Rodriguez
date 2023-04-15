@@ -439,7 +439,29 @@ section{
     font-size: 1.5rem;
     color: #999;
 }
+            /* galeria */
+.galeria .row .row-cols-1 .row-cols-md-2 .g-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+.galeria img{
+    width: 100%;
+    
+}
+.galeria h2 {
+    font-size: 3.5rem;
+    color: var(--pink);
+}
+.galeria h3 {   
+    font-size: 2rem;
+    color: #333;
+}
 
+.card-text{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
 
 
 
