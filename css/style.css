@@ -129,7 +129,7 @@ section{
 
 }
 
-.home .content h3{
+.home .content h1{
     font-size: 6rem;
     color: #333;
 }
@@ -519,9 +519,9 @@ input[type="number"]
 
 
 
-.footer .box-container .box h3{
+.footer .box-container .box h2{
     color: #333;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1rem 0;
 }
 
