@@ -1,0 +1,50 @@
+.contacto {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        text-align: center;
+
+        form {
+            flex: 1 1 40rem;
+            padding: 2rem 2.5rem;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+            border: .1rem solid rgba(0, 0, 0, .1);
+            background: #fff;
+            border-radius: .5rem;
+
+            .box {
+                padding: 1rem;
+                font-size: 1.7rem;
+                color: #333;
+                text-transform: none;
+                border: .1rem solid rgba(0, 0, 0, .1);
+                border-radius: .5rem;
+                margin: .7rem 0;
+                width: 100%;
+                &:focus {
+                    border-color: $pink;
+                }
+            }
+
+            textarea {
+                height: 15rem;
+                resize: none;
+            }
+
+            input[type="number"] {
+                -webkit-appearance: textfield !important;
+                margin: 0;
+                -moz-appearance: textfield !important;
+            }
+        }
+
+        .imagen {
+            flex: 1 1 40rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

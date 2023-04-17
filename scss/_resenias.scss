@@ -1,0 +1,75 @@
+.review {
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        .box {
+            flex: 1 1 30rem;
+            box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+            border-radius: .5rem;
+            padding: 3rem 2rem;
+            position: relative;
+            .fa-quote-right {
+                position: absolute;
+                bottom: 3rem;
+                right: 3rem;
+                font-size: 6rem;
+                color: #eee;
+            }
+            .stars i {
+                color: var(--pink);
+                font-size: 2rem;
+            }
+            p {
+                color: #999;
+                font-size: 1.5rem;
+                line-height: 1.5;
+                padding-top: 2rem;
+            }
+            .user {
+                display: flex;
+                align-items: center;
+                padding-top: 2rem;
+                img {
+                    height: 6rem;
+                    width: 6rem;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-right: 1rem;
+                }
+                h3 {
+                    font-size: 2rem;
+                    color: #333;
+                }
+                span {
+                    font-size: 1.5rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+    
+.galeria {
+    .row, .row-cols-1, .row-cols-md-2, .g-4 {
+        margin: 0 !important;
+        padding: 25px;
+    }
+    img {
+        width: 100%;
+    }
+    h2 {
+        font-size: 3.5rem;
+        color: var(--pink);
+    }
+    h3 {
+        font-size: 2rem;
+        color: #333;
+    }
+    }
+    
+.card-text {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        padding-top: 2rem;
+    }

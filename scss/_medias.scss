@@ -1,0 +1,60 @@
+@media (max-width:812px){
+    html .fa-bars{
+        display: block;
+    }
+
+    header{
+        .navbar{
+            position: absolute;
+            top: 100%; left: 0; right: 0;
+            border-top: .1rem solid rgba(0, 0, 0, .1);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+        #toggler:checked ~ .navbar {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 10);
+        }
+        .navbar {
+            ul {
+                display: block;
+                li{
+                    top: 100%; left: 0; right: 0;
+                    background: #eee;
+                    border-top: .1rem solid rgba(0, 0, 0, .1);
+                    a{
+                        margin: 1.5rem;
+                        padding: 1.5rem;
+                        background: #fff;
+                        border: .1rem solid rgba(0, 0, 0, .1);
+                        display: block; 
+                    }
+                }
+            }
+        }
+    }
+
+
+    .home{
+        .content{
+            h3{
+                font-size: 5rem;
+            }
+            span{
+                font-size: 2.5rem;
+            }
+        }
+        
+    }
+
+
+
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+}

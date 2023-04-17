@@ -1,0 +1,52 @@
+section{
+    padding: 2rem 9%;
+  }
+  
+  .home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+  
+    .content{
+      max-width: 50rem;
+  
+      h1{
+        font-size: 6rem;
+        color: #333;
+      }
+  
+      span{
+        font-size: 3.5rem;
+        color:var(--pink);
+        padding: 1rem 0;
+        line-height: 1.5;
+  
+      }
+  
+      p{
+        font-size: 1.5rem;
+        color:#414141;
+        padding: 1rem 0;
+        line-height: 1.5;
+  
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }

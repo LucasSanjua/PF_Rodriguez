@@ -1,0 +1,82 @@
+.acerca-nosotros{
+    .row{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+        padding-bottom: 3rem;
+        
+        .video-container{
+            flex: 1 1 40rem;
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+
+            video{
+                width: 75%;
+                border: 1.5rem solid #fff;
+                border-radius: 80.5rem;
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+                height: 100%;
+                object-fit: cover;
+            }
+
+            h2{
+                position: absolute;
+                top: 50%;
+                transform: translateY(-25%);
+                font-size: 3rem;
+                background: #fff;
+                width: 55%;
+                padding: 1rem 2rem;
+                text-align: center;
+                mix-blend-mode: screen;
+            }
+        }
+        .content{
+            flex: 1 1 40rem;
+
+            h3{
+                font-size: 3.5rem;
+                color: #333; 
+            }
+            p{
+                font-size: 2rem;
+                color: #999;
+                padding: .5rem 0;
+                padding-top: 1rem;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+.icons-conta{
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8.5rem;
+    width: 100%;
+    
+    .icons{
+        background: #fff;
+        border: .1rem solid rgba(0, 0, 0, .1);
+        padding: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1 1 25rem;
+
+        .img{
+            height: 5rem;
+            margin-right: 2rem ;
+
+            .info{
+                color: #333;
+                font-size: 1.5rem;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
