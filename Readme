@@ -1,0 +1,10 @@
+--------------------------Proyecto de floreria----------------------------
+La idea del proyecto es el de una tienda de flores online. La tienda cuenta con 5 páginas las cuales son, index ,contacto, productos, reseñas y sobre nosotros. La página cuenta con un menú horizontal para navegar por la misma el cuál tiene el mismo diseño en todas las páginas. La página es responsive  
+adaptando su contenido  a las distintas pantallas en la qué se pueda visualizar, el menú  se convierte en un menú hamburguesa desplegable a través de una  interacción con el botón correspondiente. Se usó Sass para la creación del diseño del css y cuenta con  el uso de bootstrap 5 para la creación de una galería de fotos en la página Reseñas.
+------------------------------- Links ------------------------------------
+La pagina se encuentra accesible mediante el link https://floweronline.netlify.app/pages/resenias.html
+y se puede visitar el repositorio de GitHub con el siguiente link
+https://github.com/LucasSanjua/PF_Rodriguez
+--------------------------------------------------------------------------- 
+
+
