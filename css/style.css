@@ -328,7 +328,7 @@ section {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
   header #toggler:checked ~ .navbar {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 10);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
   header .navbar ul {
     display: block;
@@ -341,7 +341,6 @@ section {
     border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
   }
   header .navbar ul li a {
-    margin: 1.5rem;
     padding: 1.5rem;
     background: #fff;
     border: 0.1rem solid rgba(0, 0, 0, 0.1);
@@ -376,7 +375,7 @@ section {
   display: flex;
   justify-content: space-evenly;
 }
-.acerca-nosotros .row .video-container video {
+.acerca-nosotros .row .video-container img {
   width: 75%;
   border: 1.5rem solid #fff;
   border-radius: 80.5rem;
@@ -441,7 +440,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.footer .box-container .box h2 {
+.footer .box-container .box h2, .footer .box-container .box h4 {
   color: #333;
   font-size: 2rem;
   padding: 1rem 0;
