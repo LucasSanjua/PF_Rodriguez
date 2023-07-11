@@ -38,120 +38,49 @@
 
     <section class="productos">
         <h2 class="heading">productos <span>mas</span> recientes.</h2>
-        <div class="box-container">
 
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-1.jpg" alt="Producto en venta de flores pequeñas para decorar interiores">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
+        <!-- Ordernar plantas -->
+        
+        
+        <!-- Forma para agregar plantas a la pagina de productos -->            
+        <div class="add-plant-box">
+            <div class="row">
+                <form action="" id="formAgregarPlanta">
+                    <div class="nombrePlanta">
+                        <input type="text" class="box" placeholder="Nombre de la planta" id="nombrePlantaInput">
                     </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
-            </div>
 
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-2.jpg" alt="Producto en venta de flores pequeñas para decorar interiores">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
+                    <div class="precioPlanta">
+                        <input type="text" class="box" placeholder="Precio de la planta" id="precioInput">
                     </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
-            </div>
-
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-3.webp" alt="Producto en venta de flores rosas para interiores">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
+                    <div class="guardarPlanta">
+                        <button type="text" id="guardarPlantaBtn" class="btn">Guardar Planta</button>
                     </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
+                </form>    
             </div>
+        </div>
+        <!-- Botones Mostar o Ocultar plantas -->
 
-
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-4.jpg" alt="Producto en venta de flores blanca con centro violeta para interiores y exteriores">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
+        <div class="btn-box">
+            <div class="verPlantas">
+                <button id="verPlantas" class="btn">Ver plantas</button>
             </div>
-
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-6.jpg" alt="Producto de venta de flores color rosa con maceta naranja">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
+            <div class="ocultarPlantas">
+                <button id="ocultarPlantas" class="btn">Ocultar plantas</button>
             </div>
+        </div>
+        <ul>
+            <select name="selectOrden" id="selectOrden" class="btn">
+                <option value="1">Mayor a menor</option>
+                <option value="2">Menor a mayor</option>
+                <option value="3">Alfabeticamente</option>
+            </select>
+        </ul>
 
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-7.jpg" alt="Producto de venta de flores pequeñas de color naranja">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
-            </div>
+        <div class="box-container" id="id-box-container">
+            
 
-            <div class="box">
-                <span class="discount">-10%</span>
-                <div class="imagen">
-                    <img src="../img/img-8.jpg" alt="Producto de venta de calas  blancas de interiores">
-                    <div class="icons">
-                        <a href="#" class="fas fa-heart"></a>
-                        <a href="#" class="cart-btn">añadir al carrito</a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
-                </div>
-                <div class="content">
-                    <h3>Flor</h3>
-                    <div class="precio">$630 <span>700</span></div>
-                </div>
-            </div>
+            <!-- Los elementos se cargan desde JS con DOM -->
 
         </div>
     </section>
@@ -183,6 +112,7 @@
         
 
     </section>
-
+    <!-- SCRIPT  -->
+    <script src="../js/main.js"></script>
 </body>
 </html>

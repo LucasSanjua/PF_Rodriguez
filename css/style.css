@@ -119,13 +119,13 @@ section {
   line-height: 1.5;
 }
 
-.contacto .row {
+.contacto .row, .productos .row {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   text-align: center;
 }
-.contacto .row form {
+.contacto .row form, .productos .row form {
   flex: 1 1 40rem;
   padding: 2rem 2.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -133,7 +133,7 @@ section {
   background: #fff;
   border-radius: 0.5rem;
 }
-.contacto .row form .box {
+.contacto .row form .box, .productos .row form .box {
   padding: 1rem;
   font-size: 1.7rem;
   color: #333;
@@ -143,22 +143,22 @@ section {
   margin: 0.7rem 0;
   width: 100%;
 }
-.contacto .row form .box:focus {
+.contacto .row form .box:focus, .productos .row form .box:focus {
   border-color: #e84393;
 }
-.contacto .row form textarea {
+.contacto .row form textarea, .productos .row form textarea {
   height: 15rem;
   resize: none;
 }
-.contacto .row form input[type=number] {
+.contacto .row form input[type=number], .productos .row form input[type=number] {
   -webkit-appearance: textfield !important;
   margin: 0;
   -moz-appearance: textfield !important;
 }
-.contacto .row .imagen {
+.contacto .row .imagen, .productos .row .imagen {
   flex: 1 1 40rem;
 }
-.contacto .row .imagen img {
+.contacto .row .imagen img, .productos .row .imagen img {
   width: 100%;
 }
 
